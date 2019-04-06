@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B86727282258610E00EBC28C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86727272258610E00EBC28C /* Message.swift */; };
+		B86C95D82258252000BF5A53 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95D72258252000BF5A53 /* HomePageViewController.swift */; };
+		B86C95DA225826BD00BF5A53 /* HomePageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95D9225826BD00BF5A53 /* HomePageCellTableViewCell.swift */; };
+		B86C95DC22582E1200BF5A53 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95DB22582E1100BF5A53 /* UIView+Extension.swift */; };
+		B86C95DE22582E5800BF5A53 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95DD22582E5800BF5A53 /* CustomViews.swift */; };
 		B8CE0E8122571A7D0037E495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE0E8022571A7D0037E495 /* AppDelegate.swift */; };
-		B8CE0E8322571A7D0037E495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE0E8222571A7D0037E495 /* ViewController.swift */; };
-		B8CE0E8622571A7D0037E495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CE0E8422571A7D0037E495 /* Main.storyboard */; };
-		B8CE0E8922571A7D0037E495 /* iMessage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8CE0E8722571A7D0037E495 /* iMessage.xcdatamodeld */; };
 		B8CE0E8B22571A7E0037E495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CE0E8A22571A7E0037E495 /* Assets.xcassets */; };
 		B8CE0E8E22571A7E0037E495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CE0E8C22571A7E0037E495 /* LaunchScreen.storyboard */; };
 		B8CE0E9922571A7E0037E495 /* iMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE0E9822571A7E0037E495 /* iMessageTests.swift */; };
@@ -35,11 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B86727272258610E00EBC28C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		B86C95D72258252000BF5A53 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		B86C95D9225826BD00BF5A53 /* HomePageCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCellTableViewCell.swift; sourceTree = "<group>"; };
+		B86C95DB22582E1100BF5A53 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B86C95DD22582E5800BF5A53 /* CustomViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
 		B8CE0E7D22571A7D0037E495 /* iMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CE0E8022571A7D0037E495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8CE0E8222571A7D0037E495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B8CE0E8522571A7D0037E495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B8CE0E8822571A7D0037E495 /* iMessage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMessage.xcdatamodel; sourceTree = "<group>"; };
 		B8CE0E8A22571A7E0037E495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8CE0E8D22571A7E0037E495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8CE0E8F22571A7E0037E495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +80,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B86727292258615E00EBC28C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B86727272258610E00EBC28C /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B867272A2258616B00EBC28C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B86C95D9225826BD00BF5A53 /* HomePageCellTableViewCell.swift */,
+				B86C95DB22582E1100BF5A53 /* UIView+Extension.swift */,
+				B86C95DD22582E5800BF5A53 /* CustomViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B867272B2258617200EBC28C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B86C95D72258252000BF5A53 /* HomePageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		B8CE0E7422571A7D0037E495 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +129,13 @@
 		B8CE0E7F22571A7D0037E495 /* iMessage */ = {
 			isa = PBXGroup;
 			children = (
+				B867272B2258617200EBC28C /* Controllers */,
+				B867272A2258616B00EBC28C /* Views */,
+				B86727292258615E00EBC28C /* Models */,
 				B8CE0E8022571A7D0037E495 /* AppDelegate.swift */,
-				B8CE0E8222571A7D0037E495 /* ViewController.swift */,
-				B8CE0E8422571A7D0037E495 /* Main.storyboard */,
 				B8CE0E8A22571A7E0037E495 /* Assets.xcassets */,
 				B8CE0E8C22571A7E0037E495 /* LaunchScreen.storyboard */,
 				B8CE0E8F22571A7E0037E495 /* Info.plist */,
-				B8CE0E8722571A7D0037E495 /* iMessage.xcdatamodeld */,
 			);
 			path = iMessage;
 			sourceTree = "<group>";
@@ -234,7 +264,6 @@
 			files = (
 				B8CE0E8E22571A7E0037E495 /* LaunchScreen.storyboard in Resources */,
 				B8CE0E8B22571A7E0037E495 /* Assets.xcassets in Resources */,
-				B8CE0E8622571A7D0037E495 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8CE0E8922571A7D0037E495 /* iMessage.xcdatamodeld in Sources */,
-				B8CE0E8322571A7D0037E495 /* ViewController.swift in Sources */,
 				B8CE0E8122571A7D0037E495 /* AppDelegate.swift in Sources */,
+				B86C95DA225826BD00BF5A53 /* HomePageCellTableViewCell.swift in Sources */,
+				B86C95DE22582E5800BF5A53 /* CustomViews.swift in Sources */,
+				B86727282258610E00EBC28C /* Message.swift in Sources */,
+				B86C95DC22582E1200BF5A53 /* UIView+Extension.swift in Sources */,
+				B86C95D82258252000BF5A53 /* HomePageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B8CE0E8422571A7D0037E495 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8CE0E8522571A7D0037E495 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B8CE0E8C22571A7E0037E495 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -590,19 +614,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B8CE0E8722571A7D0037E495 /* iMessage.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B8CE0E8822571A7D0037E495 /* iMessage.xcdatamodel */,
-			);
-			currentVersion = B8CE0E8822571A7D0037E495 /* iMessage.xcdatamodel */;
-			path = iMessage.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B8CE0E7522571A7D0037E495 /* Project object */;
 }
