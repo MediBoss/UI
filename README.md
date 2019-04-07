@@ -14,7 +14,8 @@ This project contains a series of popular ios apps clones to level up my design 
 
 ### Lesson Learned
 
-*
+* Lazy loading ui elements
+* Using the width and eight anchor with multipliers insteas of leading, trailing, top, bottom for stack view subviews.
 
 ## Project 2 - Gmail
 
