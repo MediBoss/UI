@@ -4,7 +4,7 @@ This project contains a series of popular ios apps clones to level up my design 
 
 
 ## Project 1 - Apple's iMessage
-<img src= "Screenshots/imessage.png" width = 170 height = 340></img>
+<img src= "Screenshots/imessage.png" width = 270 height = 440></img>
 
 ### Technologies
 
