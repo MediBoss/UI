@@ -40,9 +40,11 @@ class MenuController: UIViewController{
         tableView.dataSource = self
         tableView.delegate = self
         view.addSubview(tableView)
+        tableView.fillSuperview()
         tableView.register(MenuTableViewCell.self, forCellReuseIdentifier: MenuTableViewCell.cellID)
-        tableView.fillSuperview(padding: UIEdgeInsets(top: <#T##CGFloat#>, left: <#T##CGFloat#>, bottom: <#T##CGFloat#>, right: <#T##CGFloat#>))
+        
     }
+    
 }
 
 extension MenuController: UITableViewDataSource, UITableViewDelegate {
