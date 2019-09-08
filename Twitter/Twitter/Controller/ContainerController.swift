@@ -17,7 +17,7 @@ class ContainerController: UIViewController{
     var centerController: UIViewController!
     var isExpended = false
     
-    
+
     // MARK: INIT
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,15 +56,15 @@ class ContainerController: UIViewController{
         
         if shouldExpend {
             // show menu
-            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
                 
                 // animate
-                self.centerController.view.frame.origin.x = self.centerController.view.frame.width - 80
+                self.centerController.view.frame.origin.x = self.centerController.view.frame.width - 100
                 
             }, completion: nil)
         } else {
             // hide menu
-            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
                 
                 // animate
                 self.centerController.view.frame.origin.x = 0
