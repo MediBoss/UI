@@ -3,7 +3,7 @@
 This project contains a series of popular ios apps clones to level up my design skills in ios with AutoLayout.
 
 
-## Project 1 - Apple's iMessage
+## Project 1 - Apple's iMessage(UIKit)
 <img src= "Screenshots/imessage.png" width = 270 height = 470></img>
 
 ### Technologies
